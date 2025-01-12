@@ -18,7 +18,9 @@ export default function Home() {
         <ol>
           <li>
             <p>
-              <button style={{padding:"10px"}}><Link href="/about">About Page is here.! Click Me !</Link></button>
+              <button style={{padding:"10px"}}>
+                <Link href="/about">About Page is here.! Click Me !</Link>
+              </button>
               <br/>
               <About />
             </p>
