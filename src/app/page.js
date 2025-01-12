@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import About from "./about/page";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,6 +17,11 @@ export default function Home() {
         />
         <ol>
           <li>
+            <p>
+              <button style={{padding:"10px"}}><Link href="/about">About Page is here.! Click Me !</Link></button>
+              <br/>
+              <About />
+            </p>
             Get started by editing <code>src/app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
